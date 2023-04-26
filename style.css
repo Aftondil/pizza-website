@@ -1,0 +1,139 @@
+
+body {
+    font-family: "Jazz LET", monospace;
+  color: #0c0c0c;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  background-image: url(./bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    
+}
+
+header {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 139, 7));
+    color: white;
+    padding: 25px 60px;
+    font-weight: 400;
+    line-height: 5vh;
+  }
+  header span{
+
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 24px;
+  }
+  .cart {
+    position: relative;
+    /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 19px;
+    /* background-color: red; */
+    color:white;
+    padding: 3px;
+    border-radius: 3px;
+  }
+header a{
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+h3{
+    display: inline-block;
+    /* margin: 5px auto; */
+    padding: 13px;
+
+    
+}
+header a:hover{
+  font-size: 26px;
+
+  font-feature-settings: "calt";
+  font-stretch: ultra-expanded;
+  font-weight: 800;
+
+}
+header i{
+    font-size: 30px;
+}
+
+  
+
+
+#texta{
+  color: white;
+  background-color: #08000042;
+}
+
+footer{
+  /* background-color: rgba(255, 217, 0, 0.767); */
+  width: 100%;
+  background-color:rgb(26, 74, 163);
+  height: 400px;
+  margin-top: 70px;
+  color: white;
+} 
+ footer img{
+  width: 100%;
+ }
+ .foot{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ }
+ .foot a{
+  text-decoration: none;
+  color: white;
+ }
+ .foot ul{
+  list-style: none;
+  font-size: 24px;
+  margin-right: 90px;
+ }
+ .foot li{
+  padding: 10px;
+ }
+ .foot iframe{
+  margin-left: 90px;
+  margin-top: 10px;
+ }
+#footr p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+  }
+  header i:hover{
+    font-size: 35px;
+
+    transition: font-size 1.3s, color 1.3s;
+  }
+  header i {
+    color: white;
+  }
+  footer li:hover{
+    font-size: 30px;
+    transition: font-size 1.3s;
+  }

@@ -154,6 +154,7 @@ form .drop-list{
   width: auto;
   font-size: 16px;
   background: none;
+  color: white;
   margin: 0 -5px 0 5px;
 }
 .select-box select::-webkit-scrollbar{

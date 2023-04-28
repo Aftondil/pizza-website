@@ -99,7 +99,7 @@ header i{
   color: white;
   width: 370px;
   padding: 30px;
-  border: 5px solid blue;
+  border: 5px solid gold;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.055); 
   box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
@@ -154,8 +154,8 @@ form .drop-list{
   width: auto;
   font-size: 16px;
   background: none;
-  color: white;
   margin: 0 -5px 0 5px;
+  color: white;
 }
 .select-box select::-webkit-scrollbar{
   width: 8px;
@@ -182,11 +182,11 @@ form button{
   color: #fff;
   font-size: 17px;
   cursor: pointer;
-  background: #4534fe;
+  background: rgba(255, 217, 0, 0.579);
   transition: 0.3s ease;
 }
 form button:hover{
-    background: #675AFE;
+    background: rgb(255, 217, 0);
   
 }
 

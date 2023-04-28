@@ -1,0 +1,236 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  
+}
+header {
+  height: 13vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background:linear-gradient(to right, rgb(255, 0, 0), rgb(255, 139, 7));
+  color: white;
+  padding: 25px 60px;
+  font-weight: 400;
+  line-height: 5vh;
+}
+header span{
+
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 24px;
+}
+.cart {
+  position: relative;
+  /* background-image: radial-gradient(circle farthest-side, #fceabb, #f8b500); */
+  color: #212529;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.cartAmount {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 19px;
+  /* background-color: red; */
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+header a{
+  font-weight: 100;
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  text-decoration: none;
+}
+h3{
+  display: inline-block;
+  /* margin: 5px auto; */
+  padding: 13px;
+
+  
+}
+header i:hover{
+    font-size: 35px;
+    transition: font-size 1.3s;
+  }
+header a:hover{
+font-size: 26px;
+
+font-feature-settings: "calt";
+font-stretch: ultra-expanded;
+font-weight: 800;
+
+}
+header i{
+  font-size: 30px;
+}
+::selection{
+  color: #fff;
+  background: #675AFE;
+}
+.page{
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center; 
+  background-image: url(./bg4.jpg);
+  min-height: 100vh;
+}
+.tan{
+  margin: auto;
+  width: 70%;
+  height: 90vh;
+  border-radius: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper{
+  margin-top: 20vh;
+  margin: auto;
+  color: white;
+  width: 370px;
+  padding: 30px;
+  border: 5px solid blue;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.055); 
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+}
+.wrapper h2{
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+.wrapper form{
+  margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+form p{
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+form input{
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+form input:focus{
+  padding: 0 14px;
+  border: 2px solid #675AFE;
+}
+form .drop-list{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.drop-list .select-box{
+  display: flex;
+  width: 115px;
+  height: 45px;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+.select-box img{
+  max-width: 21px;
+}
+.select-box select{
+  width: auto;
+  font-size: 16px;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar{
+  width: 8px;
+}
+.select-box select::-webkit-scrollbar-track{
+  background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.drop-list .icon{
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+form .exchange-rate{
+  font-size: 17px;
+  margin: 20px 0 30px;
+}
+form button{
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #4534fe;
+  transition: 0.3s ease;
+}
+form button:hover{
+    background: #675AFE;
+  
+}
+
+footer{
+    background-color:rgb(26, 74, 163);
+    width: 100%;
+    height: 400px;
+    margin-top: 70px;
+    color: white;
+  }
+  footer img{
+    width: 100%;
+  }
+ .foot{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+ }
+ .foot a{
+  text-decoration: none;
+  color: white;
+ }
+ .foot ul{
+  list-style: none;
+  font-size: 24px;
+  margin-right: 90px;
+ }
+ .foot li{
+  padding: 10px;
+ }
+ .foot iframe{
+  margin-left: 90px;
+  margin-top: 10px;
+ }
+#footr p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+  }
+footer li:hover{
+    font-size: 30px;
+    transition: font-size 1.3s;
+  }

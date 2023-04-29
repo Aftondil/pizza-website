@@ -137,3 +137,8 @@ footer{
     font-size: 30px;
     transition: font-size 1.3s;
   }
+
+.video{
+  margin-left: 30%;
+  margin-top: 20PX;
+}
